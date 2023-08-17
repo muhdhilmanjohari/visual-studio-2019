@@ -1,0 +1,231 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+grpAssignment
+</name>
+</assembly>
+<members>
+<member name="T:grpAssignment.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:grpAssignment.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:grpAssignment.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.BookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.BorrowDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.BorrowerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.LateReturnFinesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.UsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.DataTable2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.DataTable3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.BookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.BorrowRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.BorrowerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.LateReturnFinesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.UsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.DataTable2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.DataTable3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.BookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.BorrowRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.BorrowerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.LateReturnFinesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.UsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.DataTable2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSet.DataTable3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.BookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.BorrowTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.BorrowerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.LateReturnFinesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.UsersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.DataTable2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.DataTable3TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:grpAssignment.DB1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(grpAssignment.DB1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:grpAssignment.DB1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(grpAssignment.DB1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:grpAssignment.DB1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(grpAssignment.DB1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:grpAssignment.DB1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:grpAssignment.DB1DataSetTableAdapters.TableAdapterManager.UpdateAll(grpAssignment.DB1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:grpAssignment.DB1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
